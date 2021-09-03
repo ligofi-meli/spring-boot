@@ -1,0 +1,44 @@
+
+Os símbolos são I, V, X, L , C , D e M , representando respectivamente
+1, 5, 10, 50, 100, 500 e 1.000 no sistema numeral hindu-arábico
+ Um símbolo colocado após outro de valor igual ou superior adiciona seu valor;
+ por exemplo, II = 2 e LX = 60. Um símbolo colocado antes de um de maior valor
+ subtrai seu valor; por exemplo, IV = 4, XL = 40 e CD = 400.
+ Uma barra colocada sobre um número multiplica seu valor por 1.000.
+
+
+Como escrever numerais romanos de 1 a 5000?
+Os algarismos romanos de 1 a 5000 podem ser obtidos usando qualquer um dos dois métodos abaixo:
+
+Método 1: neste método, dividimos 1586 na forma menos expansível , escrevemos suas respectivas
+ letras romanas e as adicionamos / subtraímos ,
+ ou seja, 1586 = 1000 + 500 + 50 + 10 + 10 + 10 + 5 + 1 = M + D + L + X + X + X + V + I =
+ MDLXXXVI
+
+Método 2: Neste método, consideramos os grupos de números para adição,
+como: 1586 = 1000 + 500 + 80 + 6 = M + D + LXXX + VI = MDLXXXVI
+
+Qualquer um dos dois métodos acima pode ser usado para escrever números romanos de 1 a 5000.
+
+
+
+Regras para escrever numerais romanos de 1 a 5000
+Certas regras devem ser seguidas ao escrever números romanos de 1 a 5000.
+Essas regras são explicadas aqui em detalhes.
+
+Quando uma letra maior precede uma letra menor, as letras são adicionadas .
+Por exemplo: DC, D> C, então DC = D + C = 500 + 100 = 600.
+Quando uma letra menor precede uma letra maior, as letras são subtraídas.
+Por exemplo: XL, X <L, então XL = L - X = 50 - 10 = 40.
+Quando uma letra é repetida várias vezes, elas são adicionadas.
+Por exemplo: CCC = C + C + C = 100 + 100 + 100 = 300
+A mesma letra não pode ser usada mais de três vezes consecutivas.
+V, L e D não podem ser repetidos, eles aparecem apenas uma vez.
+
+
+
+
+https://www.cuemath.com/numbers/roman-numerals-1-to-5000/
+https://www.britannica.com/topic/Roman-numeral
+https://careerkarma.com/blog/java-string-replace/
+https://java2blog.com/convert-roman-number-to-integer-java/
