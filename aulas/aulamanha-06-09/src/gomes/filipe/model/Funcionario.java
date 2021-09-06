@@ -49,7 +49,7 @@ public class Funcionario {
     }
 
     public void imprimeFuncionario() {
-        System.out.println("\n--- Funncionário ---");
+        System.out.println("\n--- Funcionário ---");
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Sexo: " + sexo);
