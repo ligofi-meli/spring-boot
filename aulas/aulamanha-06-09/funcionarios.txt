@@ -1,4 +1,5 @@
 Funcionario{Nome=' Anna', Idade= 30, Sexo=' F', Salário=' 8000.0'}
 Funcionario{Nome=' Velasco', Idade= 57, Sexo=' M', Salário=' 68000.0'} 3400.0
 Funcionario{Nome=' Karen', Idade= 28, Sexo=' F', Salário=' 6500.0'} 9450.0 2950.0
-Funcionario{Nome=' Filipe', Idade= 30, Sexo=' M', Salário=' 20000.0'} 1000.0 5vNgLE59H(op5Cj6TFfbl2mD13TW
+Funcionario{Nome=' Filipe', Idade= 30, Sexo=' M', Salário=' 20000.0'} 1000.0 lPwM@R7Afhp!39zT8gWeO3ROT)F5
+Funcionario{Nome=' Senna', Idade= 64, Sexo=' M', Salário=' 200000.0'} 20000.0

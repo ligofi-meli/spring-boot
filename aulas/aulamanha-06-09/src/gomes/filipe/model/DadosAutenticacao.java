@@ -1,9 +1,9 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 public class DadosAutenticacao {
 
-    private String login;
-    private String senha;
+    private final String login;
+    private final String senha;
 
     public DadosAutenticacao(String login, String senha) {
         this.login = login;

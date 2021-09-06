@@ -1,9 +1,10 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Vendedor extends Funcionario{
+
     private double faturamento;
     private static final Locale localeBrasil = new Locale("pt", "BR");
 

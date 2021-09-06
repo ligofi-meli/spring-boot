@@ -1,4 +1,4 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 import gomes.filipe.entity.UsuarioAutenticavel;
 

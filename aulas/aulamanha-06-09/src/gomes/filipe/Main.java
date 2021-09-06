@@ -1,6 +1,6 @@
 package gomes.filipe;
 
-import gomes.filipe.domain.*;
+import gomes.filipe.model.*;
 
 import java.io.*;
 import java.text.NumberFormat;
@@ -20,7 +20,7 @@ public class Main {
         boolean aunteticaCliente = filipe.autentica("cliente@test.com", "12345");
 
         System.out.println(aunteticaFilipe);
-        System.out.println(aunteticaFilipe);
+        System.out.println(aunteticaCliente);
 
         //System.out.println("\nSenha Filipe: " + filipe.getSenha());
 

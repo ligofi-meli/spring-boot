@@ -1,4 +1,4 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -9,7 +9,7 @@ public class Desenvolvedor extends Funcionario{
     private final String senha = geradorDeSenha("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%ˆˆ*()", 28);
     private static final Locale localeBrasil = new Locale("pt", "BR");
 
-    private DadosAutenticacao dadosAutenticacao;
+    private final DadosAutenticacao dadosAutenticacao;
 
     public Desenvolvedor(String nome, int idade, char sexo, double salario, String login) {
         super(nome, idade, sexo, salario);

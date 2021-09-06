@@ -1,17 +1,18 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Gerente extends Funcionario {
+public class Diretor extends Funcionario{
+
     private static final Locale localeBrasil = new Locale("pt", "BR");
 
-    public Gerente(String nome, int idade, char sexo, double salario) {
+    public Diretor(String nome, int idade, char sexo, double salario) {
         super(nome, idade, sexo, salario);
     }
 
     public double getGratificacao() {
-        return super.getSalario() * 0.05;
+        return super.getSalario() * 0.10;
     }
 
     @Override
@@ -20,7 +21,7 @@ public class Gerente extends Funcionario {
     }
 
     public void imprimeGerente() {
-        System.out.println("\n--- Gerente ---");
+        System.out.println("\n--- Diretor ---");
         System.out.println("Nome: " + getNome());
         System.out.println("Idade: " + getIdade());
         System.out.println("Sexo: " + getSexo());

@@ -1,9 +1,10 @@
-package gomes.filipe.domain;
+package gomes.filipe.model;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Funcionario {
+
     private String nome;
     private int idade;
     private char sexo;
