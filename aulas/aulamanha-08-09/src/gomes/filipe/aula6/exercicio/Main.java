@@ -18,11 +18,11 @@ public class Main {
 
         while(true) {
             System.out.println("\nDigite o nome do cliente:");
-            String nome = console.nextLine();
+            String nome = console.next();
             System.out.println("\nDigite a data de nascimento do cliente(Ex: 1980-10-08):");
-            String dataNascimento = console.nextLine();
+            String dataNascimento = console.next();
 
-            if (nome.equalsIgnoreCase("exit") || dataNascimento.equalsIgnoreCase("exit")){
+            if (nome.equalsIgnoreCase("exit") || dataNascimento.equalsIgnoreCase("exit")) {
                 console.close();
                 System.exit(0);
             }

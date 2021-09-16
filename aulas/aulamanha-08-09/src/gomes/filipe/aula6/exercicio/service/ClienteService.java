@@ -17,11 +17,10 @@ public class ClienteService {
         long idade = ChronoUnit.YEARS.between(cliente.getDataNascimento(), LocalDate.now());
 
         if (clienteCadastrado(cliente)) {
-            throw new ClienteExistenteException("Cliente " + cliente.getNome() + " já cadastrado, tem " + idade + " anos");
+            throw new ClienteExistenteException("Cliente " + cliente.getNome() + " já cadastrado, tem " + idade + " ano(s)");
         }
         if (!maiorDeIdade(cliente)) {
-            throw new MenorDeIdadeException(
-                    "Cliente " + cliente.getNome() + " é menor de idade, têm " + idade + " anos");
+            throw new MenorDeIdadeException("Cliente " + cliente.getNome() + " é menor de idade, têm " + idade + " ano(s)");
         }
         clientes.add(cliente);
     }

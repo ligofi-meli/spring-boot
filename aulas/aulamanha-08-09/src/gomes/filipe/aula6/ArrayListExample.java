@@ -2,12 +2,13 @@ package gomes.filipe.aula6;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListExample {
 
     public static void main(String[] args) {
 
-        ArrayList<String> frutas = new ArrayList<>();
+        List<String> frutas = new ArrayList<>();
         frutas.add("abacate");
         frutas.add("tangerina");
         frutas.add("cocô");
@@ -22,7 +23,7 @@ public class ArrayListExample {
         iterandoPorLoop(frutas);
     }
 
-    private static void iterarPorIterator(ArrayList<String> frutas) {
+    private static void iterarPorIterator(List<String> frutas) {
         System.out.println("\n--- Iterando por iterator ---");
         Iterator<String> iterator = frutas.iterator();
         while (iterator.hasNext()) {
@@ -30,14 +31,14 @@ public class ArrayListExample {
         }
     }
 
-    private static void iteratorPorForEach(ArrayList<String> frutas) {
+    private static void iteratorPorForEach(List<String> frutas) {
         System.out.println("\n--- Iterando por foreach ---");
         for (String item : frutas) {
             System.out.println(item);
         }
     }
 
-    private static void iterandoPorLoop(ArrayList<String> frutas) {
+    private static void iterandoPorLoop(List<String> frutas) {
         System.out.println("\n--- Iterando por loop ---");
         for (int i = 0; i < frutas.size(); i++) {
             System.out.println(frutas.get(i));
