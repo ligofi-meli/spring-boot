@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f69a01c1-b568-4066-afc8-fe1f1e01bc81" name="Default Changelist" comment="Corrigido ortográfia na palavra Funcionnário para Funcionário na linha 52">
+      <change afterPath="$PROJECT_DIR$/../.idea/aulas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aulamanha-03-09/aulamanha-03-09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aulatarde-03-09/aulatarde-03-09.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1xm6aR9VsUMDZxKXyAd9353j16V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gomes.filipe.Main" />
+      <module name="aulamanha-06-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gomes.filipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaArmazenaArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gomes.filipe.ProgramaArmazenaArquivo" />
+      <module name="aulamanha-06-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gomes.filipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaAutenticacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gomes.filipe.ProgramaAutenticacao" />
+      <module name="aulamanha-06-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gomes.filipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaFolhaPagamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gomes.filipe.ProgramaFolhaPagamento" />
+      <module name="aulamanha-06-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gomes.filipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gomes.filipe.exceptions.test.TestExceptions" />
+      <module name="aulamanha-06-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gomes.filipe.exceptions.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestExceptions" />
+        <item itemvalue="Application.ProgramaFolhaPagamento" />
+        <item itemvalue="Application.ProgramaAutenticacao" />
+        <item itemvalue="Application.ProgramaArmazenaArquivo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f69a01c1-b568-4066-afc8-fe1f1e01bc81" name="Default Changelist" comment="" />
+      <created>1630947980018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630947980018</updated>
+      <workItem from="1630947982335" duration="204000" />
+      <workItem from="1630956160542" duration="319000" />
+      <workItem from="1630956493459" duration="6943000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adicionado aula da manhã">
+      <created>1630948176928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630948176928</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refatorado aula da manhã e adiciondo exerício de excecoes da aula da tarde">
+      <created>1630961966081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630961966081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Corrigido ortográfia na palavra Funcionnário para Funcionário na linha 52">
+      <created>1630964781846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630964781846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionado aula da manhã" />
+    <MESSAGE value="Refatorado aula da manhã e adiciondo exerício de excecoes da aula da tarde" />
+    <MESSAGE value="Corrigido ortográfia na palavra Funcionnário para Funcionário na linha 52" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigido ortográfia na palavra Funcionnário para Funcionário na linha 52" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
