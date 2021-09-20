@@ -1,6 +1,6 @@
 package gomes.filipe.desafiospring.controller;
 
-import gomes.filipe.desafiospring.model.Professor;
+import gomes.filipe.desafiospring.entity.Professor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package gomes.filipe.desafiospring.model;
+package gomes.filipe.desafiospring.entity;
 
 public class Professor {
 
