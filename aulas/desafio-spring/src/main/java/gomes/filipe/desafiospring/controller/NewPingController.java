@@ -10,6 +10,6 @@ public class NewPingController {
 
     @GetMapping("/ping")
     public String palavra() {
-        return "new pong";
+        return "New Pong";
     }
 }
