@@ -7,13 +7,13 @@ public class Aluno {
     private String nome;
     private String endereco;
     private int idade;
-    private List<Disciplina> disciplinasConcluidas;
+    private List<Disciplina> listaDisciplinas;
 
-    public Aluno(String nome, String endereco, int idade, List<Disciplina> disciplinasConcluidas) {
+    public Aluno(String nome, String endereco, int idade, List<Disciplina> listaDisciplinas) {
         this.nome = nome;
         this.endereco = endereco;
         this.idade = idade;
-        this.disciplinasConcluidas = disciplinasConcluidas;
+        this.listaDisciplinas = listaDisciplinas;
     }
 
     public String getNome() {
@@ -40,11 +40,21 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public List<Disciplina> getDisciplinasConcluidas() {
-        return disciplinasConcluidas;
+    public List<Disciplina> getlistaDisciplinas() {
+        return listaDisciplinas;
     }
 
-    public void setDisciplinasConcluidas(List<Disciplina> disciplinasConcluidas) {
-        this.disciplinasConcluidas = disciplinasConcluidas;
+    public void setlistaDisciplinas(List<Disciplina> listaDisciplinas) {
+        this.listaDisciplinas = listaDisciplinas;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", idade=" + idade +
+                ", listaDisciplinas=" + listaDisciplinas +
+                '}';
     }
 }
