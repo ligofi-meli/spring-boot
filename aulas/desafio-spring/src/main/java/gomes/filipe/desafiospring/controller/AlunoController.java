@@ -21,5 +21,10 @@ public class AlunoController {
         return aluno;
     }
 
+    @GetMapping("/aluno")
+    public void encontraAluno(@RequestBody Aluno aluno) {
+        
+    }
+
 
 }

@@ -1,20 +1,25 @@
 package gomes.filipe.desafiospring.controller;
 
+import gomes.filipe.desafiospring.dto.ProfessorDTO;
 import gomes.filipe.desafiospring.entity.Professor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 @RequestMapping(value = "/home")
 public class NewPingController {
 
     private Map<String, String> map = new HashMap<>();
+    private Map<Long, Professor> mapaCompleto = new HashMap<>();
 
     public NewPingController () {
         map.put("fiipe", "gomes");
+
+        mapaCompleto.put(1L, new Professor("filipe", "gomes", String.valueOf(ThreadLocalRandom.current().nextInt(100, 10000))));
     }
 
     @GetMapping(value = "/ping")
@@ -65,5 +70,17 @@ public class NewPingController {
     @DeleteMapping(value = "deleta/{i}")
     public void remover(@PathVariable("i") String nome) {
         map.remove(nome);
+    }
+
+    @GetMapping(value = "/professores/{id}")
+    public ProfessorDTO get(@PathVariable("id") Long id) {
+        ProfessorDTO dto = new ProfessorDTO();
+        mapaCompleto.forEach((k, v) -> {
+            if (k.equals(id)) {
+                dto.setPrimeiroNome(v.getPrimeiroNome());
+                dto.setSegundoNome(v.getSegundoNome());
+            }
+        });
+        return dto;
     }
 }
